@@ -1,27 +1,28 @@
-# Pokedex
+# ![DevSuperior logo](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png) POKEDEX - POKEMON
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
+Essa aplicação criada em `Angular: 14.2.12` e `typeScript` estamos consumindo a API Pokemon.
 
-## Development server
+Onde ao clicar no pokemon, ele é carregado para uma página, onde mostra os detalhes do pokemon selecionado.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Também foi criado umas animações, pegando o código css no site ![theappguruz](https://www.theappguruz.com/tag-tools/web/CSSAnimations/)
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Também usamos o `forkJoin` do `rxjs` do Angular.
 
-## Build
+O `forkJoin` do RxJS, acompanha o andamento das requisições (observables) passadas como parâmetro e emite um sinal quando todas as requisições forem finalizadas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ScreenShot - Quando Carrega página - Lista todos os 100 pokemon's.
+<p align="center">
+<img src="./src/assets/snapshot/1.png" width="100%">
+</p>
+<p align="center">
+<img src="./src/assets/snapshot/2.png" width="100%">
+</p>
+ScreenShot - Erro na API tanto de listagem dos pokemon, ou no API que faz a consulta dos detalhes do pokemon.
+<p align="center">
+<img src="./src/assets/snapshot/3.png" width="100%">
+</p>
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<h1 align="center">💻 Desenvolvido Por: Gilberto Júnior</h1>
