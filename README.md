@@ -17,6 +17,11 @@ ScreenShot - Quando Carrega página - Lista todos os 100 pokemon's.
 <p align="center">
 <img src="./src/assets/snapshot/1.png" width="100%">
 </p>
+ScreenShot - Busca dos pokemon's que iniciam com as letras C H A
+<p align="center">
+<img src="./src/assets/snapshot/5.png" width="100%">
+</p>
+ScreenShot - Detalhe do pokemon Venusaur
 <p align="center">
 <img src="./src/assets/snapshot/2.png" width="100%">
 </p>
